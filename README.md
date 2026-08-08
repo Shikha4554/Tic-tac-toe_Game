@@ -1,42 +1,28 @@
-# 🎮 Tic Tac Toe Game
+# Tic-Tac-Toe Game
 
-A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.
+A classic two-player Tic-Tac-Toe game built with plain HTML, CSS, and JavaScript, playable in the browser.
 
-## 📌 Features
+## Tech Stack
 
-- Two-player game (X and O)
-- Win and draw detection
-- Reset button to play again
-- Clean and responsive UI
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 🚀 How to Run
+## Features
 
-1. Clone the repository or download the files.
-2. Open `9th.html` in your browser.
-3. Start playing by clicking on the game board!
+- Two-player gameplay, alternating turns between X and O
+- 3x3 grid of clickable cells
+- Win detection across all 8 winning combinations (rows, columns, diagonals)
+- Winner announcement banner once a match is decided
+- "O" and "X" marks are color-coded for readability
+- Reset Game and New Game buttons to start over at any time
 
-## 🛠️ Tech Stack
+## Getting Started
 
-- HTML
-- CSS
-- JavaScript (DOM manipulation)
+Open `index.html` in a browser, or serve the folder locally:
 
-## 📷 Preview
+```bash
+npx serve
+```
 
-![Tic Tac Toe Screenshot](screenshot.png) <!-- Replace with your screenshot path if available -->
-
-## 📁 Files Included
-
-- `index.html` – The main HTML file.
-- `style.css` – Styling for the game.
-- `script.js` – Game logic using JavaScript.
-
-## 🧠 Future Improvements
-
-- Add AI opponent
-- Add sound effects
-- Improve animations
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
+No build step or dependencies required.
